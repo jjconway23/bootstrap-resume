@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-header{
+
+/* -----------GLobal Styles--------- */
+h1,h2,h3,h4{
     margin: 0;
+}
+.uppercase{
+    text-transform: uppercase;
+} 
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 /* ---------Colors------------------ */
 .bg-colog-name-title{
@@ -20,6 +30,9 @@ header{
     background-color: #e67e22;
 }
 /* ---------Header------------------ */
+header{
+    margin: 0;
+}
 .heading{
     margin-left: 50px;
 }
@@ -87,6 +100,13 @@ header{
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/* ---------Footer------------------ */
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 /* ------- Hover ---------- */
 .hvr-sweep-to-bottom:before{
